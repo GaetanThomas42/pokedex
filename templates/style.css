@@ -1,0 +1,20 @@
+.pokemon-image{
+    position: absolute;
+    opacity: 1;
+    transition-duration: 1s;
+    height: 200px;
+    width: auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.normal{
+    z-index: 2;
+}
+.shiny{
+    z-index: 1;
+}
+
+.normal:hover{
+    opacity: 0;
+}

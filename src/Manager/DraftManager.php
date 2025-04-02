@@ -88,7 +88,6 @@ GROUP BY d.id";
     {
         $pokemonManager = new PokemonManager();
         $pokemon = $pokemonManager->selectById($arrayDraft["selected_pokemon_id"]);
-        $eliminatedPokemons = [];
         $eliminatedPokemonIds = json_decode($arrayDraft['eliminated_pokemon_ids'], true);
 
         return new Draft(

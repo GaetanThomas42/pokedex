@@ -104,7 +104,6 @@ class PokemonManager extends DatabaseManager
                 $pokemon->addType($type);
             }
         }
-
         return $pokemon;
     }
 }
